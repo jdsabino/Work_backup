@@ -1,0 +1,14 @@
+#ifndef USR_MULTISIM_H_
+#define USR_MULTISIM_H_
+
+#include "cfl.h"
+
+typedef void (*snpcglO1_multisim)(cfl_init*, conf_snpcglO1*, conf_snpcglO1*, cfl_potential*, cfl_potential*, int);
+
+static inline void snpcglO1_multisim_D(cfl_init* I, conf_snpcglO1* conf_pre, conf_snpcglO1* conf_post, cfl_potential* V_pre, cfl_potential* V_post, int sim_index) {
+    
+    
+    
+}
+
+#endif
